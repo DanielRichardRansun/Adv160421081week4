@@ -8,7 +8,7 @@ import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
-import com.gamaliel.advweek4160421086.model.Game
+import com.example.adv160421081week4.model.Game
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

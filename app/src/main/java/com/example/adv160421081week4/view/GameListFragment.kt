@@ -8,11 +8,11 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.gamaliel.advweek4160421086.R
-import com.gamaliel.advweek4160421086.databinding.FragmentGameListBinding
-import com.gamaliel.advweek4160421086.databinding.FragmentStudentListBinding
-import com.gamaliel.advweek4160421086.viewmodel.GameViewModel
-import com.gamaliel.advweek4160421086.viewmodel.ListViewModel
+import com.example.adv160421081week4.R
+import com.example.adv160421081week4.databinding.FragmentGameListBinding
+import com.example.adv160421081week4.databinding.FragmentStudentListBinding
+import com.example.adv160421081week4.viewmodel.GameViewModel
+import com.example.adv160421081week4.viewmodel.ListViewModel
 
 
 class GameListFragment : Fragment() {

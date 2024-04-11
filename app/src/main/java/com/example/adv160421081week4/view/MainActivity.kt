@@ -3,14 +3,14 @@ package com.example.adv160421081week4.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.app.NotificationCompat
-import com.gamaliel.advweek4160421086.R
-import com.gamaliel.advweek4160421086.databinding.ActivityMainBinding
+import com.example.adv160421081week4.R
+import com.example.adv160421081week4.databinding.ActivityMainBinding
 import android.Manifest
 import android.content.pm.PackageManager
 import android.util.Log
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationManagerCompat
-import com.gamaliel.advweek4160421086.util.createNotificationChannel
+import com.example.adv160421081week4.util.createNotificationChannel
 
 class MainActivity : AppCompatActivity() {
 
