@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
-import com.gamaliel.advweek4160421086.databinding.StudentListItemBinding
-import com.gamaliel.advweek4160421086.model.Student
+import com.example.adv160421081week4.databinding.StudentListItemBinding
+import com.example.adv160421081week4.model.Student
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
 import java.lang.Exception

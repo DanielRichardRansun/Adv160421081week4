@@ -3,8 +3,8 @@ package com.example.adv160421081week4.view
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.gamaliel.advweek4160421086.databinding.GameListItemBinding
-import com.gamaliel.advweek4160421086.model.Game
+import com.example.adv160421081week4.databinding.GameListItemBinding
+import com.example.adv160421081week4.model.Game
 
 class GameListAdapter(val gameList:ArrayList<Game>)
     :RecyclerView.Adapter<GameListAdapter.GameViewHolder>(){

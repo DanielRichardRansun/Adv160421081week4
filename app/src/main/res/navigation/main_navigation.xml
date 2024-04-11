@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/studentListFragment">
+
+    <fragment
+        android:id="@+id/studentDetailFragment"
+        android:name="com.gamaliel.advweek4160421086.view.StudentDetailFragment"
+        android:label="fragment_student_detail"
+        tools:layout="@layout/fragment_student_detail" >
+        <argument
+            android:name="studentID"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.gamaliel.advweek4160421086.view.StudentListFragment"
+        android:label="fragment_student_list"
+        tools:layout="@layout/fragment_student_list" >
+        <action
+            android:id="@+id/actionstudentdetailfragment"
+            app:destination="@id/studentDetailFragment" />
+        <action
+            android:id="@+id/actiongamelistfragment"
+            app:destination="@id/gameListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameListFragment"
+        android:name="com.gamaliel.advweek4160421086.view.GameListFragment"
+        android:label="fragment_game_list"
+        tools:layout="@layout/fragment_game_list" />
+</navigation>

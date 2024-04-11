@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.gamaliel.advweek4160421086.R
-import com.gamaliel.advweek4160421086.databinding.FragmentStudentDetailBinding
-import com.gamaliel.advweek4160421086.viewmodel.DetailViewModel
-import com.gamaliel.advweek4160421086.viewmodel.ListViewModel
+import com.example.adv160421081week4.R
+import com.example.adv160421081week4.databinding.FragmentStudentDetailBinding
+import com.example.adv160421081week4.viewmodel.DetailViewModel
+import com.example.adv160421081week4.viewmodel.ListViewModel
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
